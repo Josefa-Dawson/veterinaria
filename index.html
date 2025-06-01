@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Josefa Dawson B. - Médico Veterinaria a Domicilio</title>
+    <meta name="description" content="Médico veterinaria Josefa Dawson B. - Atención integral y personalizada para perros y gatos a domicilio en Santiago" />
+    <meta name="author" content="Dra. Josefa Dawson B." />
+    
+    <meta property="og:title" content="Dra. Josefa Dawson B. - Médico Veterinaria a Domicilio" />
+    <meta property="og:description" content="Atención veterinaria integral y personalizada para perros y gatos a domicilio en Santiago" />
+    <meta property="og:type" content="website" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <div class="brand-icon">
+                        <img src="/img/logo.jpg" alt="Logo Dra. Josefa Dawson B." class="logo-img">
+                    </div>
+                    <span class="brand-text">Dra. Josefa Dawson B.</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <button class="nav-link" onclick="scrollToSection('home')">Inicio</button>
+                    <button class="nav-link" onclick="scrollToSection('about')">Sobre Mí</button>
+                    <button class="nav-link" onclick="scrollToSection('services')">Servicios</button>
+                    <button class="nav-link" onclick="scrollToSection('contact')">Contacto</button>
+                </div>
+                
+                <button class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Médico Veterinaria a Domicilio</h1>
+                    <!-- <h2 class="hero-subtitle">Médico Veterinaria a Domicilio</h2> -->
+                    <p class="hero-description">
+                        Atención integral y personalizada para perros y gatos, con énfasis en la salud preventiva 
+                        y el bienestar animal. Brindo atención a domicilio para garantizar que tu mascota reciba 
+                        cuidados profesionales en un entorno tranquilo y familiar.
+                    </p>
+                    <div class="hero-buttons">
+                        <!-- <a href="https://wa.me/56990053292" class="btn btn-primary">
+                            📞 +56 9 9005 3292
+                        </a> -->
+                        <button class="btn btn-secondary" onclick="scrollToSection('services')">
+                            Ver Servicios →
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <img src="/img/domicilio.jpg" alt="Atención a Domicilio" style="width:100%; height:100%; object-fit: cover; border-radius: 20px;">
+                        <!-- <p class="placeholder-title">Atención a Domicilio</p>
+                        <p class="placeholder-subtitle">Cuidado profesional en casa</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <p class="about-description">
+                        Soy <strong>Josefa Dawson B.</strong>, Médico veterinaria dedicada a ofrecer atención integral y 
+                        personalizada para perros y gatos, con énfasis en la salud preventiva y el bienestar animal.
+                    </p>
+                    <p class="about-description">
+                        Brindo atención a domicilio para garantizar que tu mascota reciba cuidados profesionales 
+                        en un entorno tranquilo y familiar.
+                    </p>
+                    <p class="about-description">
+                        Mi compromiso es entregar un servicio respetuoso, profesional y cercano, adaptado a las 
+                        necesidades individuales de cada paciente, fomentando un vínculo de confianza con los tutores.
+                    </p>
+                    
+                    <div class="commitment-box">
+                        <h3 class="commitment-title">Mi Compromiso</h3>
+                        <p class="commitment-text">
+                            Mi enfoque profesional combina rigurosidad Médico con un trato amable y respetuoso, 
+                            buscando que cada consulta sea una experiencia tranquila para tu mascota y que tú 
+                            como tutor recibas toda la información necesaria para un cuidado responsable.
+                        </p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">👥</div>
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">Comunas de Atención</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🏆</div>
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Atención a Domicilio</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">⏰</div>
+                            <div class="stat-number">Disponibilidad</div>
+                            <div class="stat-label">Consultar por WhatsApp</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📍</div>
+                            <div class="stat-number">Santiago</div>
+                            <div class="stat-label">Región Metropolitana</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="/img/chloe.jpg" alt="Foto de la Dra. Josefa Dawson B." class="placeholder-icon">
+                        <p class="placeholder-title">Dra. Josefa Dawson B.</p>
+                        <p class="placeholder-subtitle">Médico Veterinaria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Servicios Profesionales</h2>
+                <p class="section-description">
+                    Atención veterinaria integral a domicilio con enfoque preventivo, 
+                    amable y profesional para perros y gatos.
+                </p>
+            </div>
+
+            <!-- Main Services -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🩺</div>
+                    <h3 class="service-title">Consulta Veterinaria General</h3>
+                    <p class="service-description">
+                        Evaluación clínica completa, diagnóstico y plan de tratamiento personalizado para mantener o recuperar la salud de tu mascota.
+                    </p>
+                    <div class="service-price">Preventiva: $15.000 | Médico: $25.000</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Teleconsulta</h3>
+                    <p class="service-description">
+                        Seguimiento y asesoría Médico a distancia por videollamada o teléfono, siempre que el caso clínico permita una adecuada evaluación.
+                    </p>
+                    <div class="service-price">$10.000</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">💉</div>
+                    <h3 class="service-title">Vacunación a Domicilio</h3>
+                    <p class="service-description">
+                        La vacunación es la piedra angular en la prevención de enfermedades infecciosas graves y potencialmente mortales.
+                    </p>
+                    <div class="service-price">Desde $12.000</div>
+                </div>
+            </div>
+
+            <!-- Vaccines Section -->
+            <div class="vaccines-section">
+                <h3 class="vaccines-title">Vacunas Disponibles</h3>
+                <div class="vaccines-grid">
+                    <div class="vaccine-card">
+                        <h4 class="vaccine-name">Vacuna Óctuple (Perros)</h4>
+                        <div class="vaccine-price">$15.000</div>
+                        <p class="vaccine-description">Protege contra: Moquillo, Parvovirus, Adenovirus tipo 1 y 2, Parainfluenza, Leptospirosis, Coronavirus</p>
+                    </div>
+                    <div class="vaccine-card">
+                        <h4 class="vaccine-name">Vacuna Antirrábica</h4>
+                        <div class="vaccine-price">$12.000</div>
+                        <p class="vaccine-description">Previene la rabia, zoonosis fatal. Obligatoria por ley para perros y gatos</p>
+                    </div>
+                    <div class="vaccine-card">
+                        <h4 class="vaccine-name">Vacuna KC (Perros)</h4>
+                        <div class="vaccine-price">$15.000</div>
+                        <p class="vaccine-description">Previene traqueobronquitis infecciosa (tos de las perreras)</p>
+                    </div>
+                    <div class="vaccine-card">
+                        <h4 class="vaccine-name">Vacuna Triple Felina</h4>
+                        <div class="vaccine-price">$15.000</div>
+                        <p class="vaccine-description">Protege contra: Herpesvirus felino, Calicivirus felino, Panleucopenia felina</p>
+                    </div>
+                    <div class="vaccine-card">
+                        <h4 class="vaccine-name">Vacuna Leucemia Felina</h4>
+                        <div class="vaccine-price">$15.000</div>
+                        <p class="vaccine-description">Solo se administra si el test de leucemia felina es negativo</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Services -->
+            <div class="other-services">
+                <h3 class="other-services-title">Otros Servicios</h3>
+                <div class="other-services-grid">
+                    <div class="other-service-card">
+                        <div class="service-icon">🛡️</div>
+                        <h4 class="service-title">Desparasitación Interna</h4>
+                        <p class="service-description">Prevención y control de parásitos gastrointestinales</p>
+                        <div class="service-price">Perros: $2.000/10kg | Gatos: $2.000/5kg</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">❤️</div>
+                        <h4 class="service-title">Toma de Presión Arterial</h4>
+                        <p class="service-description">Evaluación en pacientes geriátricos o con enfermedades crónicas</p>
+                        <div class="service-price">Incluida en consultas</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">🧪</div>
+                        <h4 class="service-title">Exámenes de Laboratorio</h4>
+                        <p class="service-description">Hematología, perfil bioquímico, endocrinología y otros</p>
+                        <div class="service-price">$30.000 + valor del examen</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">🔬</div>
+                        <h4 class="service-title">Test de Fluoresceína</h4>
+                        <p class="service-description">Diagnóstico de úlceras y lesiones corneales</p>
+                        <div class="service-price">$5.000</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">💾</div>
+                        <h4 class="service-title">Implante de Microchip</h4>
+                        <p class="service-description">Identificación permanente y segura con registro</p>
+                        <div class="service-price">$15.000</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">🩹</div>
+                        <h4 class="service-title">Curación de Heridas</h4>
+                        <p class="service-description">Limpieza y tratamiento especializado</p>
+                        <div class="service-price">$10.000</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">✂️</div>
+                        <h4 class="service-title">Corte de Uñas</h4>
+                        <p class="service-description">Mantenimiento de higiene y bienestar</p>
+                        <div class="service-price">$5.000</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">👂</div>
+                        <h4 class="service-title">Limpieza de Oídos</h4>
+                        <p class="service-description">Prevención de infecciones y problemas auditivos</p>
+                        <div class="service-price">$5.000</div>
+                    </div>
+                    <div class="other-service-card">
+                        <div class="service-icon">🥗</div>
+                        <h4 class="service-title">Asesoría Nutricional</h4>
+                        <p class="service-description">Orientación personalizada según edad y condición</p>
+                        <div class="service-price">$10.000</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-note">
+                <p><strong>Importante:</strong> Cada vacunación incluye evaluación clínica previa. 
+                No se realiza vacunación sin examen físico. La toma de presión arterial está incluida 
+                en las consultas cuando el paciente lo permita.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctame</h2>
+                <p class="section-description">
+                    ¿Tienes alguna pregunta o necesitas agendar una consulta? 
+                    Estoy disponible para atender a tu mascota.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h3 class="form-title">Agenda tu Consulta</h3>
+                        <p class="form-subtitle">Completa el formulario y te contactaré por WhatsApp</p>
+                    </div>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+56 9 xxxx xxxx">
+                            </div>
+                            <div class="form-group">
+                                <label for="petName">Nombre de la mascota</label>
+                                <input type="text" id="petName" name="petName" required placeholder="Nombre de tu mascota">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tipo de consulta o síntomas</label>
+                            <textarea id="message" name="message" required rows="4" placeholder="Describe el motivo de la consulta, síntomas o si es una consulta preventiva..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            💬 Contactar por WhatsApp
+                        </button>
+                    </form>
+
+                    <!-- <div class="direct-contact">
+                        <p class="direct-contact-text">O contáctame directamente:</p>
+                        <a href="https://wa.me/56990053292" class="btn btn-outline">
+                            💬 WhatsApp: +56 9 9005 3292
+                        </a>
+                    </div> -->
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h4 class="contact-title">WhatsApp / Teléfono</h4>
+                        <a href="https://wa.me/56990053292" class="contact-link">+56 9 9005 3292</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h4 class="contact-title">Áreas de Atención</h4>
+                        <p class="contact-text">Vitacura, Las Condes, Lo Barnechea,<br>Ñuñoa, Huechuraba, Providencia,<br>Recoleta y Santiago Centro</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">⏰</div>
+                        <h4 class="contact-title">Disponibilidad</h4>
+                        <p class="contact-text">Consultar por WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="brand-icon">
+                            <img src="/img/logo.jpg" alt="Logo Dra. Josefa Dawson B." class="logo-img">
+                        </div>
+                        <span class="brand-text">Dra. Josefa Dawson B.</span>
+                    </div>
+                    <p class="footer-description">
+                        Médico veterinaria dedicada a la atención integral y personalizada 
+                        de perros y gatos a domicilio, con énfasis en la salud preventiva 
+                        y el bienestar animal.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title"></h4>
+                    <ul class="footer-links">
+                        <li><button onclick="scrollToSection('home')">Inicio</button></li>
+                        <li><button onclick="scrollToSection('about')">Sobre Mí</button></li>
+                        <li><button onclick="scrollToSection('services')">Servicios y Precios</button></li>
+                        <li><button onclick="scrollToSection('contact')">Contacto</button></li>
+                    </ul>
+                </div>
+                
+                <!-- <div class="footer-section">
+                    <h4 class="footer-title">Contacto</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <a href="https://wa.me/56990053292" target="_blank" rel="noopener noreferrer">
+                                +56 9 9005 3292 (WhatsApp)
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+56 9 9005 3292</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <p>Atención a domicilio en:</p>
+                                <p class="areas-text">Vitacura, Las Condes, Lo Barnechea,</p>
+                                <p class="areas-text">Ñuñoa, Huechuraba, Providencia,</p>
+                                <p class="areas-text">Recoleta y Santiago Centro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dra. Josefa Dawson B. - Médico Veterinaria.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
