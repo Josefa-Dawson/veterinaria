@@ -61,16 +61,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const email = formData.get('email');
             const phone = formData.get('phone');
             const petName = formData.get('petName');
+            const petAge = formData.get('petAge');
+            const petSex = formData.get('petSex');
+
             const message = formData.get('message');
             
             // Create WhatsApp message
             const whatsappMessage = `Hola Dra. Josefa, me interesa agendar una consulta veterinaria.
 
-Mis datos:
 - Nombre: ${name}
 - Email: ${email}
 - Teléfono: ${phone}
 - Nombre de la mascota: ${petName}
+- Edad de la mascota: ${petAge}
+- Sexo de la mascota: ${petSex}
+
 - Consulta: ${message}`;
             
             // Create WhatsApp URL
